@@ -1,10 +1,11 @@
-const express = require('express')
-const path = require('path')
-const PORT = process.env.PORT || 5000
+// optional: allow environment to specify port
+const port = process.env.PORT || 8080
 
-express()
-  .use(express.static(path.join(__dirname, 'public')))
-  .set('views', path.join(__dirname, 'views'))
-  .set('view engine', 'ejs')
-  .get('/', (req, res) => res.render('pages/index'))
-  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
+// wire up the module
+const express = require('express') 
+// create server instance
+const app = express() 
+// bind the request to an absolute path or relative to the CWD
+app.use(express.static('dist'))
+// start the server
+app.listen(port, () => console.log(`Listening on port ${port}`))
