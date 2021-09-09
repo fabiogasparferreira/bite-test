@@ -20,7 +20,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview --port 9090",
-    "start": "node index.js"
+    "start": "node src/main.ts",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o dist_sb/"
   },
