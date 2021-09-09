@@ -1,0 +1,60 @@
+{
+  "name": "bite",
+  "displayName": "Bite Vite Template",
+  "description": "Vite template that minimizes bite pain 🐝",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "email": "AsimTahir@protonmail.com",
+      "name": "Asim-Tahir",
+      "url": "https://github.com/Asim-Tahir"
+    }
+  ],
+  "author": {
+    "email": "AsimTahir@protonmail.com",
+    "name": "Asim-Tahir",
+    "url": "https://github.com/Asim-Tahir"
+  },
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview --port 9090",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -o dist_sb/"
+  },
+  "dependencies": {
+    "@vueuse/core": "5.2.0",
+    "@vueuse/head": "0.6.0",
+    "@vueuse/integrations": "5.2.0",
+    "animejs": "3.2.1",
+    "vue": "3.1.5",
+    "vue-router": "4.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.0",
+    "@storybook/addon-actions": "6.3.6",
+    "@storybook/addon-essentials": "6.3.6",
+    "@storybook/addon-links": "6.3.6",
+    "@storybook/addon-postcss": "2.0.0",
+    "@storybook/builder-webpack5": "6.3.6",
+    "@storybook/vue3": "6.3.6",
+    "@tailwindcss/jit": "0.1.18",
+    "@tailwindcss/typography": "0.4.1",
+    "@types/animejs": "3.1.4",
+    "@types/node": "14.17.9",
+    "@vitejs/plugin-vue": "1.3.0",
+    "@vue/compiler-sfc": "3.1.5",
+    "autoprefixer": "10.3.1",
+    "babel-loader": "8.2.2",
+    "postcss": "8.3.6",
+    "postcss-advanced-variables": "3.0.1",
+    "postcss-preset-env": "6.7.0",
+    "typescript": "4.3.5",
+    "tailwindcss": "2.2.7",
+    "vite": "2.4.4",
+    "vite-svg-loader": "2.1.1",
+    "vue-loader": "16.4.1",
+    "vue-svg-loader": "0.17.0-beta.2"
+  }
+}

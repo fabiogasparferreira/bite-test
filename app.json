@@ -1,0 +1,35 @@
+{
+  "name": "Bite Vite Template",
+  "description": "Vite template that minimizes bite pain 🐝",
+  "logo": "https://raw.githubusercontent.com/Asim-Tahir/bite/main/src/assets/Text/1%20Template.png",
+  "image": "heroku/nodejs",
+  "repository": "https://github.com/Asim-Tahir/bite",
+  "keywords": [
+    "svg",
+    "template",
+    "pwa",
+    "vue-router",
+    "bite",
+    "ssg",
+    "vite",
+    "storybookjs",
+    "vite-template",
+    "tailwindcss-v2",
+    "postcss-v8"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku-community/static"
+    }
+  ],
+  "env": {
+    "VITE_API_URL": {
+      "required": false,
+      "value": "http://localhost:4000",
+      "description": "For Backend API URL. Default is http://localhost:4000"
+    }
+  }
+}
